@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/threadpool/C-Thread-Pool-master/thpool.h
+
+C:/Users/Administrator/CLionProjects/threadpool/main.cpp
+iostream
+-
+C-Thread-Pool-master/thpool.h
+C:/Users/Administrator/CLionProjects/threadpool/C-Thread-Pool-master/thpool.h
+

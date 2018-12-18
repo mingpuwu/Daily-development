@@ -1,0 +1,3 @@
+C:/Users/Administrator/CLionProjects/typedef/cmake-build-debug/CMakeFiles/typedef.dir
+C:/Users/Administrator/CLionProjects/typedef/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/CLionProjects/typedef/cmake-build-debug/CMakeFiles/rebuild_cache.dir

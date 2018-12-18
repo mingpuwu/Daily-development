@@ -1,0 +1,3 @@
+"D:\CLion 2018.1.6\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\uthash_demo.dir/objects.a
+C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\uthash_demo.dir/objects.a @CMakeFiles\uthash_demo.dir\objects1.rsp
+C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\uthash_demo.dir/objects.a -Wl,--no-whole-archive  -o uthash_demo.exe -Wl,--out-implib,libuthash_demo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\uthash_demo.dir\linklibs.rsp

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Administrator/CLionProjects/virtual/base_class.cpp
+iostream
+-
+base_class.h
+C:/Users/Administrator/CLionProjects/virtual/base_class.h
+
+C:/Users/Administrator/CLionProjects/virtual/base_class.h
+
+C:/Users/Administrator/CLionProjects/virtual/human_class.cpp
+human_class.h
+C:/Users/Administrator/CLionProjects/virtual/human_class.h
+iostream
+-
+
+C:/Users/Administrator/CLionProjects/virtual/human_class.h
+base_class.h
+C:/Users/Administrator/CLionProjects/virtual/base_class.h
+string
+-
+
+C:/Users/Administrator/CLionProjects/virtual/main.cpp
+iostream
+-
+base_class.h
+C:/Users/Administrator/CLionProjects/virtual/base_class.h
+human_class.h
+C:/Users/Administrator/CLionProjects/virtual/human_class.h
+
