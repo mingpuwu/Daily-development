@@ -5,20 +5,22 @@
 #ifndef STUDENT_MANAGER_MANAGER_H
 #define STUDENT_MANAGER_MANAGER_H
 
-
+using namespace std;
+using namespace stu;
 namespace mg {
     class manager {
     public:
         manager();
+        std::map<string,map<string,int>> allinfo;
         void access_manager();
         int input_account_password(std::string,std::string);
-        void set_student_grade(std::string,std::string, int);
-        int get_student_grade(std::string);
-        student_class::student get_all_student_info();
+        void set_student_grade(std::string,std::string,int);
+        void add_student_info(const class student &);
+
         ~manager();
 
     private:
-        static std::map<std::string,std::string> acount;
+        std::map<std::string,std::string> acount;
     };
 }
 

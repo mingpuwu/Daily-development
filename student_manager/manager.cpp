@@ -3,6 +3,7 @@
 //
 
 #include "manager.h"
+#include "student.h"
 using namespace std;
 namespace mg{
     manager::manager(){
@@ -20,16 +21,13 @@ namespace mg{
             return -1;
     }
 
-    void manager::set_student_grade(std::string name, std::string object, int grade) {
-
+    void manager::set_student_grade(std::string name ,std::string object, int grade) {
+        allinfo["name"]["object"] = grade;
+        cout<<name<<" "<<object<<" is "<<grade;
     }
 
-    int manager::get_student_grade(std::string object) {
-
-    }
-
-    student_class::student manager::get_all_student_info() {
-
+    void manager::add_student_info(const class student &info) {
+        manager::allinfo.insert({info.name,info.object_grade});
     }
     manager::~manager() {
         cout<<"quit manager"<<endl;

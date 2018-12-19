@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/CLionProjects/student_manager/manager.cpp
-manager.h
-D:/CLionProjects/student_manager/manager.h
-
-D:/CLionProjects/student_manager/manager.h
+D:/Daily-development/student_manager/main.cpp
+iostream
+-
 student.h
-D:/CLionProjects/student_manager/student.h
+D:/Daily-development/student_manager/student.h
+manager.h
+D:/Daily-development/student_manager/manager.h
 
-D:/CLionProjects/student_manager/student.h
+D:/Daily-development/student_manager/manager.h
+student.h
+D:/Daily-development/student_manager/student.h
+
+D:/Daily-development/student_manager/student.h
 iostream
 -
 vector
