@@ -15,9 +15,10 @@ namespace mg {
         void access_manager();
         int input_account_password();
         void show_manager_selction();
-        void select_user_opertion();
+
+        int select_user_opertion();
         void set_student_grade(std::string,std::string,int);
-        void add_student_info(const class student &);
+        void add_student_info(const class student);
 
         ~manager();
 

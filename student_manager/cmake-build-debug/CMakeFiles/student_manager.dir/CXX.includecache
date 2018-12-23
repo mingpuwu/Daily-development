@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/Daily-development/student_manager/manager.cpp
-sstream
+D:/Daily-development/student_manager/main.cpp
+iostream
 -
-manager.h
-D:/Daily-development/student_manager/manager.h
 student.h
 D:/Daily-development/student_manager/student.h
+manager.h
+D:/Daily-development/student_manager/manager.h
 
 D:/Daily-development/student_manager/manager.h
 student.h
