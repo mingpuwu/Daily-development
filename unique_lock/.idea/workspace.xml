@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="test" targetName="test" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="af0ae32a-3881-4251-be7b-0703c7f32dcd" name="Default Changelist" comment="">
+      <change afterPath="D:/CLionProjects/map/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/.idea/map.iml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/.idea/misc.xml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/.idea/modules.xml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/CMakeLists.txt" afterDir="false" />
+      <change afterPath="D:/CLionProjects/map/main.cpp" afterDir="false" />
+      <change afterPath="D:/QtProjects/student_manager/main.cpp" afterDir="false" />
+      <change afterPath="D:/QtProjects/student_manager/mainwindow.cpp" afterDir="false" />
+      <change afterPath="D:/QtProjects/student_manager/mainwindow.h" afterDir="false" />
+      <change afterPath="D:/QtProjects/student_manager/mainwindow.ui" afterDir="false" />
+      <change afterPath="D:/QtProjects/student_manager/student_manager.pro" afterDir="false" />
+      <change beforePath="D:/CLionProjects/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/student_manager/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/student_manager/manager.cpp" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/student_manager/manager.h" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/student_manager/student.cpp" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/student_manager/student.h" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/thread/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/thread/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="D:/CLionProjects/vector/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/manager.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/manager.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/cmake-build-debug/CMakeFiles/student_manager.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/cmake-build-debug/student_manager.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/cmake-build-debug/student_manager.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/manager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/manager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../student_manager/manager.h" beforeDir="false" afterPath="$PROJECT_DIR$/../student_manager/manager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thread" beforeDir="false" afterPath="$PROJECT_DIR$/../thread" afterDir="false" />
+      <change beforePath="D:/test.txt" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="test" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="test" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af0ae32a-3881-4251-be7b-0703c7f32dcd" name="Default Changelist" comment="" />
+      <created>1545401954572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545401954572</updated>
+      <workItem from="1545401956671" duration="937000" />
+      <workItem from="1545486600864" duration="6761000" />
+      <workItem from="1545543469544" duration="51000" />
+      <workItem from="1545543600002" duration="68000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7817000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36557376" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.35409835" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="105" column="7" lean-forward="true" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/condition_variable">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

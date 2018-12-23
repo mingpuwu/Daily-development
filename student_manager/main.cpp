@@ -1,6 +1,7 @@
 #include <iostream>
 #include "student.h"
 #include "manager.h"
+
 int main() {
     using namespace stu;
     using namespace mg;
@@ -12,8 +13,11 @@ int main() {
     man.calcu_average_grade();
     manager admin;
     admin.access_manager();
-    admin.input_account_password("mingpuwu","asd.1234");
+    while(admin.input_account_password()!= 1){
+        cout <<"password is error"<<endl;
+    }
     admin.add_student_info(man);
+
     cout<<admin.allinfo.size()<<endl;
     cout<<admin.allinfo["xiaoming"]["math"]<<endl;
     std::cout << "Hello, World!" << std::endl;
