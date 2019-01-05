@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/CLionProjects/more_thread/cmake-build-debug"/>
+				<Option working_dir="D:/Daily-development/more_thread/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="more_thread">
-				<Option output="D:/CLionProjects/more_thread/cmake-build-debug/more_thread.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/more_thread/cmake-build-debug"/>
+				<Option output="D:/Daily-development/more_thread/cmake-build-debug/more_thread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daily-development/more_thread/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_thread"/>
-					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_thread"/>
+					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="more_thread/fast">
-				<Option output="D:/CLionProjects/more_thread/cmake-build-debug/more_thread.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CLionProjects/more_thread/cmake-build-debug"/>
+				<Option output="D:/Daily-development/more_thread/cmake-build-debug/more_thread.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Daily-development/more_thread/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,37 +53,37 @@
 					<Add directory="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_thread/fast"/>
-					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 more_thread/fast"/>
+					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="D:/CLionProjects/more_thread/cmake-build-debug"/>
+				<Option working_dir="D:/Daily-development/more_thread/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/CLionProjects/more_thread/cmake-build-debug"/>
+				<Option working_dir="D:/Daily-development/more_thread/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/CLionProjects/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="G:/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/Daily-development/more_thread/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CLionProjects/more_thread/main.cpp">
+		<Unit filename="D:/Daily-development/more_thread/main.cpp">
 			<Option target="more_thread"/>
 		</Unit>
-		<Unit filename="D:/CLionProjects/more_thread/CMakeLists.txt">
+		<Unit filename="D:/Daily-development/more_thread/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
