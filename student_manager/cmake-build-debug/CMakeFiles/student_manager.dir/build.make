@@ -57,6 +57,7 @@ include CMakeFiles/student_manager.dir/progress.make
 include CMakeFiles/student_manager.dir/flags.make
 
 CMakeFiles/student_manager.dir/main.cpp.obj: CMakeFiles/student_manager.dir/flags.make
+CMakeFiles/student_manager.dir/main.cpp.obj: CMakeFiles/student_manager.dir/includes_CXX.rsp
 CMakeFiles/student_manager.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Daily-development\student_manager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/student_manager.dir/main.cpp.obj"
 	G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\student_manager.dir\main.cpp.obj -c D:\Daily-development\student_manager\main.cpp
@@ -70,6 +71,7 @@ CMakeFiles/student_manager.dir/main.cpp.s: cmake_force
 	G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Daily-development\student_manager\main.cpp -o CMakeFiles\student_manager.dir\main.cpp.s
 
 CMakeFiles/student_manager.dir/student.cpp.obj: CMakeFiles/student_manager.dir/flags.make
+CMakeFiles/student_manager.dir/student.cpp.obj: CMakeFiles/student_manager.dir/includes_CXX.rsp
 CMakeFiles/student_manager.dir/student.cpp.obj: ../student.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Daily-development\student_manager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/student_manager.dir/student.cpp.obj"
 	G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\student_manager.dir\student.cpp.obj -c D:\Daily-development\student_manager\student.cpp
@@ -83,6 +85,7 @@ CMakeFiles/student_manager.dir/student.cpp.s: cmake_force
 	G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Daily-development\student_manager\student.cpp -o CMakeFiles\student_manager.dir\student.cpp.s
 
 CMakeFiles/student_manager.dir/manager.cpp.obj: CMakeFiles/student_manager.dir/flags.make
+CMakeFiles/student_manager.dir/manager.cpp.obj: CMakeFiles/student_manager.dir/includes_CXX.rsp
 CMakeFiles/student_manager.dir/manager.cpp.obj: ../manager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Daily-development\student_manager\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/student_manager.dir/manager.cpp.obj"
 	G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\student_manager.dir\manager.cpp.obj -c D:\Daily-development\student_manager\manager.cpp

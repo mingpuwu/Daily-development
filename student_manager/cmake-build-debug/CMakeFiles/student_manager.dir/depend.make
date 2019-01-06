@@ -4,6 +4,17 @@
 CMakeFiles/student_manager.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/student_manager.dir/main.cpp.obj: ../manager.h
 CMakeFiles/student_manager.dir/main.cpp.obj: ../student.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/binary_log_types.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/errmsg.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/my_command.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/my_list.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql/client_plugin.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql/plugin_auth_common.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql/udf_registration_types.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql_com.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql_time.h
+CMakeFiles/student_manager.dir/main.cpp.obj: D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include/mysql_version.h
 
 CMakeFiles/student_manager.dir/manager.cpp.obj: ../manager.cpp
 CMakeFiles/student_manager.dir/manager.cpp.obj: ../manager.h
