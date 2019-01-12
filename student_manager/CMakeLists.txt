@@ -6,9 +6,9 @@ set(INC_DIR  D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/include)
 set(LINK_DIR  D:/mysql_lib/mysql-8.0.13-winx64/mysql-8.0.13-winx64/lib)
 include_directories(${INC_DIR})
 link_directories(${LINK_DIR})
-link_libraries(mysql)
+link_libraries(libmysql.dll)
 
 
 add_executable(student_manager main.cpp student.cpp student.h manager.cpp manager.h)
 
-target_link_libraries(student_manager )
+target_link_libraries(student_manager libmysql.dll)
