@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2018.3.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\array_rollback.dir/objects.a
+G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe cr CMakeFiles\array_rollback.dir/objects.a @CMakeFiles\array_rollback.dir\objects1.rsp
+G:\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\array_rollback.dir/objects.a -Wl,--no-whole-archive  -o array_rollback.exe -Wl,--out-implib,libarray_rollback.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\array_rollback.dir\linklibs.rsp
