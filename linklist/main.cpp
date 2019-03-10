@@ -6,6 +6,7 @@ typedef struct data{
     char name;
 }data;
 using namespace std;
+
 struct linklist{
     data *elem;
     int num;

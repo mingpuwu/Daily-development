@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.13)
+project(boost_thread)
+set(INL_DIR D:/boost_1_69_0/boost_1_69_0/)
+set(LIB_DIR D:/boost_1_69_0/boost_1_69_0/libs/)
+
+set(CMAKE_CXX_STANDARD 14)
+include_directories(${INL_DIR})
+link_libraries(lwsocket32)
+add_executable(boost_thread main.cpp )
+target_link_libraries(lwsocket32)

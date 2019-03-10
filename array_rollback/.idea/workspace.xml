@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acdbd2b8-326b-4c61-b281-d5f48918ff0c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../queue/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../thread" beforeDir="false" afterPath="$PROJECT_DIR$/../thread" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -63,8 +62,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -104,17 +103,18 @@
       <workItem from="1547377603683" duration="4366000" />
       <workItem from="1547477865590" duration="4000" />
       <workItem from="1547478074883" duration="1000" />
+      <workItem from="1547479293604" duration="44000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4371000" />
+    <option name="totallyTimeSpent" value="4415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

@@ -1,5 +1,5 @@
 #include <iostream>
-
+using namespace std;
 void merg(int a[],int start,int mid,int end)
 {
     int *tmp = (int*)malloc((end-start+1)*sizeof(int));
@@ -29,6 +29,7 @@ void spit(int a[],int start,int end)
         return;
     int mid = (start+end)/2;
     spit(a,start,mid);
+    cout<<end<<endl;
     spit(a,mid+1,end);
 
     merg(a,start,mid,end);

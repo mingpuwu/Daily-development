@@ -86,4 +86,5 @@ namespace mg{
     manager::~manager() {
         cout<<"quit manager"<<endl;
     }
+
 }
