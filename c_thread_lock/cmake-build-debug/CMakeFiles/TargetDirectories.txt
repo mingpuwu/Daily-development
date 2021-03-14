@@ -1,3 +1,0 @@
-D:/Daily-development/c_thread_lock/cmake-build-debug/CMakeFiles/c_thread_lock.dir
-D:/Daily-development/c_thread_lock/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Daily-development/c_thread_lock/cmake-build-debug/CMakeFiles/rebuild_cache.dir

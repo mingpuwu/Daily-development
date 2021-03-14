@@ -1,3 +1,0 @@
-C:/Users/Administrator/CLionProjects/uthash_c/cmake-build-debug/CMakeFiles/uthash_c.dir
-C:/Users/Administrator/CLionProjects/uthash_c/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Administrator/CLionProjects/uthash_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir
