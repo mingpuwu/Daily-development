@@ -27,14 +27,14 @@ void merg(int a[],int start,int mid,int end)
     free(tmp);
 }
 
-void spit(int a[],int start,int end)
+void msort(int a[],int start,int end)
 {
-    if(start>=end)
+    if(start >= end)
         return;
+
     int mid = (start+end)/2;
-    spit(a,start,mid);
-    cout<<end<<endl;
-    spit(a,mid+1,end);
+    msort(a,start,mid);
+    msort(a,mid+1,end);
 
     merg(a,start,mid,end);
 }
@@ -42,7 +42,7 @@ void spit(int a[],int start,int end)
 int main()
 {
     int a[10] = {9,8,7,6,5,4,3,2,1,0};
-    spit(a,0,9);
+    msort(a,0,9);
 
     for(int i= 0;i<9;i++)
         std::cout<<a[i]<<std::endl;

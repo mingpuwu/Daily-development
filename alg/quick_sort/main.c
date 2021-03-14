@@ -10,8 +10,10 @@ void display(int* array, int size)
     printf("\n");
 }
 
-//快排在冒泡排序改机而来，基本思想是分治思想，递归分块排序，O(n)<算法复杂度<= O(n方),平均O(nlogn)
-
+//快排在冒泡排序改机而来，
+//基本思想是分治思想，递归分块排序，O(n)<算法复杂度<= O(n方),平均O(nlogn)
+//1.已第一个数为基准，已基准为分解线开始成两部分
+//2.
 
 //一趟排序
 int getStandard(int array[], int i, int j)
@@ -28,20 +30,21 @@ int getStandard(int array[], int i, int j)
             j--;
         }
         // 当找到比基准小的值，就把后面的值 array[j] 赋给它，j处的值已经被拿走
-        if (i < j) {
+        if (i < j)
+        {
             array[i] = array[j];
         }
 
-        // 再从右开始找,就一直向后挪动 i 指针
+        // 再从左开始找,就一直向后挪动 i 指针
         while (i < j && array[i] <= key) {
             i++;
         }
-        // 当找到比 array[j] 大的时，就把前面的值 array[i] 赋给它，把j处的值补上
+        // 当找到比基准大的值时，就把前面的值 array[i] 赋给它，把j处的值补上
         if (i < j) {
             array[j] = array[i];
         }
     }
-    // 跳出循环时 i 和 j 相等,此时的 i 或 j 就是 key 的正确索引位置
+    // 跳出循环时 i 和 j 相等（并不意味着一定对半分）,此时的 i 或 j 就是 key 的正确索引位置
     // 把基准数据赋给正确位置
     array[i] = key;
     return i;
