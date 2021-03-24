@@ -19,8 +19,9 @@ void insertion_sort(int* unsorted, int len)
     {
         if (unsorted[i - 1] > unsorted[i])//两两比较相邻两个数
         {
-            int temp = unsorted[i];//小的数几下来,此时i位置处的数可以随意更改
+            int temp = unsorted[i];//小的数记下来,此时i位置处的数可以随意更改
             int j = i;//小的索引备份
+
             //往前接着比，找到比刚才大的数
             while (j > 0 && unsorted[j - 1] > temp)
             {

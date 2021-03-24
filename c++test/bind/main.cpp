@@ -8,7 +8,8 @@ void func(int a,int b,int c)
     std::cout<<"b is "<<b<<std::endl;
 }
 
-int main() {
+int main()
+{
     auto a = std::bind(&func,_2,3,_1);
     a(1,2);
     std::cout << "Hello, World!" << std::endl;

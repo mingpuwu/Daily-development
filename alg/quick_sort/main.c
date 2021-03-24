@@ -11,9 +11,9 @@ void display(int* array, int size)
 }
 
 //快排在冒泡排序改机而来，
-//基本思想是分治思想，递归分块排序，O(n)<算法复杂度<= O(n方),平均O(nlogn)
+//基本思想是分治思想，递归分块排序，平均O(nlogn)
 //1.已第一个数为基准，已基准为分解线开始成两部分
-//2.
+//2.递归
 
 //一趟排序
 int getStandard(int array[], int i, int j)
@@ -29,10 +29,10 @@ int getStandard(int array[], int i, int j)
         {
             j--;
         }
-        // 当找到比基准小的值，就把后面的值 array[j] 赋给它，j处的值已经被拿走
+        // 当找到比基准小的值，就把后面的值 array[j] 赋给它，i处的值已经被拿走
         if (i < j)
         {
-            array[i] = array[j];
+            array[i] = array[j];//把小的放低端
         }
 
         // 再从左开始找,就一直向后挪动 i 指针
