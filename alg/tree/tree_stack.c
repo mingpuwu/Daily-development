@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/*总结：
+1.c语言版的需要自己的做栈
+2.
+*/
+
 typedef struct treenode{
     int data;
     struct treenode* left;

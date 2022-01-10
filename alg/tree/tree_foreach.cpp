@@ -3,6 +3,10 @@
 
 using namespace std;
 
+/*总结:
+1.通过不同的访问位置就可以做到不同的遍历顺序
+2.树的构造方式一般就这么简单的写?
+*/
 struct node{
     int data;
     struct node* left;
@@ -33,7 +37,7 @@ void printInorder(struct node* node)
         return;
     }
     printInorder(node->left);
-    printf("%d ",node->data);
+    printf("%d\n",node->data);
     printInorder(node->right);
 }
 
@@ -57,19 +61,11 @@ int main()
     root->left->right=newNode(5);
     root->right->left=newNode(6);
     root->right->right=newNode(7);
-    root->left->left->left=newNode(8);
-    root->left->left->right=newNode(9);
-    root->left->right->left=newNode(10);
-    root->left->right->right=newNode(11);
-    root->right->left->left=newNode(12);
-    root->right->left->right=newNode(13);
-    root->right->right->left=newNode(14);
-    root->right->right->right=newNode(15);
 
     printf("Preorder raversal of binary tree is \n");
-    printPreorder(root);
+    //printPreorder(root);
     //printf("\nInorder raversal of binary tree is \n");
-    //printInorder(root);
+    printInorder(root);
     //printf("\nPostorder raversal of binary tree is \n");
     //printPostorder(root);
     return 0;
