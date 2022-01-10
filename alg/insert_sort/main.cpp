@@ -3,6 +3,9 @@
 using namespace std;
 
 //插入排序，算法时间复杂度n方，空间复杂度
+//将无序的元素插入到有序的元素序列中，插入后仍然有序。
+//插入排序：每次把前面的一部分数据排好(从两个数开始)，逐次扩大规模，将后面扩大的数据
+//包含进来，插如到前面排好的数据中去，直至整个数组
 
 void display(int* x)
 {
@@ -13,7 +16,7 @@ void display(int* x)
     cout<<endl;
 }
 
-void insertion_sort(int* unsorted, int len)
+void insertion_sort(int unsorted[], int len)
 {
     for (int i = 1; i < len; i++)//从第二个数开始
     {

@@ -1,5 +1,7 @@
 #include <iostream>
 
+//比较相邻元素,一趟之后把最大的放到最后
+
 using namespace std;
 
 void display(int* a, int len)
@@ -10,7 +12,14 @@ void display(int* a, int len)
     }
 }
 
-void bubble_sort(int* array, int len)
+void swap(int a[], int i, int j)
+{
+    int tmp = a[i];
+    a[i] = a[j];
+    a[j] = tmp;
+}
+
+void bubble_sort(int array[], int len)
 {
     for(int j = 0; j < len-1; j++)//排len趟
     {
@@ -18,9 +27,7 @@ void bubble_sort(int* array, int len)
         {
             if(array[i] > array[i+1])
             {
-                int tmp = array[i+1];
-                array[i+1] = array[i];
-                array[i] = tmp;
+                swap(array,i,i+1);
             }
         }
     }
@@ -28,8 +35,9 @@ void bubble_sort(int* array, int len)
 
 int main()
 {
-    int a[5] = {3,9,2,7,1};
-    bubble_sort(a,5);
+    int a[] = {3,9,2,7,1,4,5};
+    int size = sizeof(a)/sizeof(int);
+    bubble_sort(a,size);
 
-    display(a,5);
+    display(a,size);
 }
