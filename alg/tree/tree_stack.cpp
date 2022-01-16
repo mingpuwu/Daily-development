@@ -33,9 +33,7 @@ BiNode* CreadTreeNode(int data)
 void PreOrderStack(BiTree tree)
 {
     if(!tree)
-    {
         return;
-    }
 
     std::stack<BiNode*> s;
     s.push(tree);

@@ -18,7 +18,7 @@ typedef struct BiNode{
 BiNode* CreadTreeNode(int data)
 {
     BiNode *node = (BiNode*)malloc(sizeof(BiNode));
-    if(!node)
+    if(node == nullptr)
     {
         printf("malloc node is error\n");
         return nullptr;
@@ -79,9 +79,7 @@ void calculatebreadth(BiTree tree)
     }
 
     printf("max is %d\n",Max);
-
 }
-
 
 int main()
 {

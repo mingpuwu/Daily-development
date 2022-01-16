@@ -33,9 +33,8 @@ void printPostorder(struct node* node)
 
 void printInorder(struct node* node)
 {
-    if(node==NULL){
+    if(node==NULL)
         return;
-    }
     printInorder(node->left);
     printf("%d\n",node->data);
     printInorder(node->right);
@@ -45,9 +44,8 @@ void printInorder(struct node* node)
 void printPreorder(struct node* node)
 {
     if(node==NULL)
-    {
         return;
-    }
+
     printf("%d ",node->data);
     printPreorder(node->left);
     printPreorder(node->right);
