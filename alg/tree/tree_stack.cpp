@@ -1,6 +1,7 @@
 #include<stack>
 #include<iostream>
 #include<memory.h>
+#include<queue>
 
 typedef struct BiNode{
     int data;
@@ -25,7 +26,9 @@ BiNode* CreadTreeNode(int data)
 }
 
 /*
-总结：后访问哪个哪个后入栈
+总结：
+基本套路：出栈，打印，有右右入栈，有左左入栈，循环
+后访问哪个哪个后入栈
 */
 void PreOrderStack(BiTree tree)
 {
@@ -87,6 +90,62 @@ void PosOrderStack(BiTree tree)
 
 }
 
+/*
+总结：左边全部入栈，之后弹出，打印，右入栈，循环
+*/
+void InOrderStack(BiTree head)
+{
+    if(head == nullptr)
+    {
+        printf("111\n");
+        return;
+    }
+
+    std::stack<BiNode*> s;
+
+    while (!s.empty() or head != nullptr)
+    {
+        if(head != nullptr)
+        {
+            s.push(head);
+            head = head->left;
+        }
+        else
+        {
+            head = s.top();
+            printf("node data is %d\n",head->data);
+            s.pop();
+            head = head->right;
+        }
+    }
+}
+
+/*
+树的广度优先需要有一个辅助FIFO(queue)(先进先出)
+出队，打印，左节点入队，右节点入队，循环
+*/
+void BreadthFirst(BiTree tree)
+{
+    if(tree == nullptr)
+        return;
+
+    std::queue<BiNode*> q;
+    q.push(tree);
+
+    while (!q.empty())
+    {
+        BiNode* node = q.front();
+        printf("node data %d\n",node->data);
+        q.pop();
+        if(node->left)
+            q.push(node->left);
+
+        if(node->right)
+            q.push(node->right);
+    }
+
+}
+
 int main()
 {
     BiTree tree = CreadTreeNode(1);
@@ -97,5 +156,5 @@ int main()
     tree->right->left = CreadTreeNode(6);
     tree->right->right = CreadTreeNode(7);
 
-    PosOrderStack(tree);
+    BreadthFirst(tree);
 }
