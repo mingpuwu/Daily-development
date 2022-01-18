@@ -50,4 +50,13 @@ int main()
 
     cout<<data<<endl;
 
+    data = "123456789";
+
+    int n = data.rfind('5');
+    cout<<n<<endl;
+    n = data.rfind("56",7);
+    cout<<n<<endl;
+
+    cout<<data.size()<<endl;
+    cout<<data[3]<<endl;
 }
