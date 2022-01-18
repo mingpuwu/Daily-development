@@ -6,16 +6,19 @@
 int main()
 {
     int num;
-    std::cin>>num;
-    int count = 0;
-    while(num>2)
+    while(std::cin>>num)
     {
-        count += num/3;
-        num = num%3+num/3;
+        if(num == 0) break;
+        int count = 0;
+        while(num>2)
+        {
+            count += num/3;
+            num = num%3+num/3;
+        }
+
+        if(num == 2) count+=1;
+
+        std::cout<<count<<std::endl;
     }
-
-    if(num == 2) count+=1;
-
-    printf("count %d\n",count);
 
 }
