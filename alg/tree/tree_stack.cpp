@@ -30,6 +30,8 @@ BiNode* CreadTreeNode(int data)
 基本套路：出栈，打印，有右右入栈，有左左入栈，循环
 后访问哪个哪个后入栈
 */
+
+//树栈的前序遍历
 void PreOrderStack(BiTree tree)
 {
     if(!tree)
@@ -57,6 +59,8 @@ void PreOrderStack(BiTree tree)
 先序的改版是：头右左（只需要修改压栈的顺序即先压栈左边再压栈右边）
 那么反过来就是后序，做法：出栈的时候放到另一个栈中
 */
+
+//树栈的后序遍历
 void PosOrderStack(BiTree tree)
 {
     if(!tree)
@@ -91,6 +95,7 @@ void PosOrderStack(BiTree tree)
 /*
 总结：左边全部入栈，之后弹出，打印，右入栈，循环
 */
+//树栈的中序遍历
 void InOrderStack(BiTree head)
 {
     if(head == nullptr)
@@ -122,6 +127,7 @@ void InOrderStack(BiTree head)
 树的广度优先需要有一个辅助FIFO(queue)(先进先出)
 出队，打印，左节点入队，右节点入队，循环
 */
+//广度优先遍历
 void BreadthFirst(BiTree tree)
 {
     if(tree == nullptr)

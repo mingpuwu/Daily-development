@@ -32,7 +32,7 @@ BiNode* CreadTreeNode(int data)
     return node;
 }
 
-/*判断是否是搜索二叉树
+/*判断是否是搜索二叉树？
 按照中序遍历，并且必须为增序
 有一个静态变量去存储当前的值
 */
@@ -58,7 +58,7 @@ bool isBinarySort(BiTree tree)
 }
 
 /*
-判断是否是完全二叉树
+判断是否是完全二叉树？
 使用广度优先遍历
 分情况讨论
 ：
@@ -102,7 +102,7 @@ bool isCompleteBiT(BiTree tree)
 
 
 /*
-树型DP思想判断是否为平衡二叉树
+树型DP思想判断是否为平衡二叉树？
 左子树是、右子树是、左高度与右高度的差小于等于1
 */
 
