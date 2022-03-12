@@ -57,7 +57,16 @@
         "errno.h": "c",
         "errno-base.h": "c",
         "ctype.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "atomic": "cpp",
+        "cstddef": "cpp",
+        "cstring": "cpp",
+        "optional": "cpp",
+        "cinttypes": "cpp",
+        "iterator": "cpp",
+        "map": "cpp",
+        "memory_resource": "cpp",
+        "set": "cpp"
     },
     "cmake.configureOnOpen": false
 }
