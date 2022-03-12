@@ -1,8 +1,8 @@
 array_rollback
-binary_search       二分查找
-bubble_sort         冒泡排序
-dynamicprogramar    动态规划
-graph               图
+binary_search       二分查找  
+bubble_sort         冒泡排序  
+dynamicprogramar    动态规划  
+graph               图  
 greedy              贪心算法
 hanoi               汉诺塔
 heap                堆
