@@ -20,3 +20,5 @@
 - tree                树  
 - trie                前缀树  
 - unionset            归并集  
+- kmp                 kmp算法  
+- mannacher           马拉车算法
