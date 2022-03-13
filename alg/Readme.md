@@ -21,4 +21,5 @@
 - trie                前缀树  
 - unionset            归并集  
 - kmp                 kmp算法  
-- mannacher           马拉车算法
+- mannacher           马拉车算法  
+- 滑动窗口             滑动窗口
