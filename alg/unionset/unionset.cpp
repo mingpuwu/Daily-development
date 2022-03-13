@@ -84,8 +84,6 @@ void Union(int a, int b)
             sizeMap.erase(small);
         }
     }
-
-    sizeMap.find(FindHead(a))->second;
 }
 
 int main()
